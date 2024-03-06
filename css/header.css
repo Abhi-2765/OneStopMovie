@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+header {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #001d3d;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px #00CED1;
+}
+
+.left-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-sec {
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    align-items: center;
+}
+
+.search-bar {
+    width: 3px;
+    height: 35px;
+    border-radius: 17px;
+    border: 1px solid #5e7998;
+    background-color: #003f88;
+    padding-left: 10px;
+    font-family: Poppins, Arial;
+    font-weight: 26px;
+    color: white;
+    flex: 1;
+}
+
+.search-bar::placeholder {
+    font-family: Poppins, Arial;
+    font-weight: 400px;
+    color: #01B4E4;
+}
+
+.search-btn {
+    position: absolute;
+    width: 59px;
+    border: none;
+    height: 37px;
+    background-color: #003f88;
+    margin: -1px;
+    border-radius: 17px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-btn img {
+    padding-left: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.right-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    margin-left: 30px;
+}
+
+
+.icon-right svg {
+    color: #00CED1;
+    height: 40px;
+    padding: 0px 17px;
+    cursor: pointer;
+}
+
+.icon-right-heart svg {
+    color: #8d2c33;
+    height: 50px;
+    padding: 0px 17px;
+    cursor: pointer;
+}
